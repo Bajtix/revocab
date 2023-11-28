@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>revocab beta</title>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <h1>revocab</h1>
+
+    <div id="quiz">
+        <h3 id="question">question</h3>
+        <form action="javascript:void(0);" method="dialog" id="quizbox">
+
+            <input type="text" name="answer" id="answer" />
+            <input type="submit" value="ok" />
+        </form>
+        <p id="streakinfo">...
+        </p>
+        <div id="history">
+
+        </div>
+    </div>
+
+
+    <style>
+        body {
+            display: flex;
+            margin: 0px;
+            padding: 0px;
+            width: 100vw;
+            height: 100vh;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #history {
+            height: 20vh;
+            overflow-y: scroll;
+            opacity: 0.7;
+        }
+
+        #quiz {
+            width: 20vw;
+        }
+
+        @media screen and (max-width: 775px) {
+            #quiz {
+                width: 60vw;
+            }
+        }
+
+        #quizbox {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 90% auto;
+        }
+
+        #streakinfo {
+            display: block;
+            text-align: center;
+            font-size: 0.9em;
+        }
+
+        pre {
+            display: inline-block;
+        }
+    </style>
+</body>
+
+</html>
