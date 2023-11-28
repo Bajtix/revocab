@@ -14,9 +14,8 @@
     <div id="quiz">
         <h3 id="question">question</h3>
         <form action="javascript:void(0);" method="dialog" id="quizbox">
-
-            <input type="text" name="answer" id="answer" />
-            <input type="submit" value="ok" />
+            <input placeholder="type here" type="text" name="answer" id="answer" />
+            <input type="submit" value="OK" />
         </form>
         <p id="streakinfo">...
         </p>
@@ -36,7 +35,49 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+            background-color: rgb(21, 21, 41);
+            color: white;
         }
+
+        input[type='text'] {
+            background-color: unset;
+            border: none;
+            border-bottom: solid white 2px;
+            color: white;
+        }
+
+        input[type='text']::placeholder {
+            color: gray;
+        }
+
+        textarea:focus,
+        input:focus {
+            outline: none;
+        }
+
+        input[type='submit'] {
+            border: none;
+            background-color: unset;
+            color: white;
+            border-radius: 0.2em;
+            font-weight: 600;
+            transition: all 0.1s;
+        }
+
+        input[type='submit']:hover {
+            box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+            transform: translateY(-2px);
+        }
+
+        input[type='submit']:active {
+            box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+            transform: translateY(0px);
+        }
+
+
 
         #history {
             height: 20vh;
@@ -45,12 +86,18 @@
         }
 
         #quiz {
-            width: 20vw;
+            width: 40vw;
         }
 
         @media screen and (max-width: 775px) {
             #quiz {
                 width: 60vw;
+            }
+        }
+
+        @media screen and (max-width: 375px) {
+            #quiz {
+                width: 70vw;
             }
         }
 

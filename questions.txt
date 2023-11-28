@@ -1,3 +1,88 @@
-jutro | futro
-dzieci | śmieci
-sranie | w banie
+беспорядок | bałagan
+владелец | właściciel
+дача | działka
+договор | umowa
+домохозяйка | gospodyni domowa
+жильё | mieszkanie
+залог | kaucja
+месторасположение | położenie
+наимитель | najemca
+недвижимость | nieruchomość
+общежите | akademik
+объявление | ogłoszenie
+отопление | ocieplenie
+покупатель | nabywca
+полотенце | ręcznik
+посредник | pośrednik
+предоплата  | przedpłata
+разрешение | pozwolenie
+район | dzielnica
+риелтор | pośrednik w obrocie nieruchomościami
+свет | światło
+стоимость | cena
+сутки | doba
+счётчик | licznik
+тапочки | kapcie
+халат | szlafrok
+хозяева | gospodarze
+хозяин | gospodarz
+хозяйка | gospodyni
+электроэнергия | energia elektryczna
+этаж | piętro
+
+добраться | dostać się
+злиться | złościć się
+ненавидеть | nienawidzić
+обратиться | zwrócić się
+покупать | kupować
+продавать | sprzedawać
+разогреть | odgrzać
+сдавать | wynajmować komuś
+снимать | wynajmować od kogoś
+
+выносить мусор | wynosić śmieci
+гладить одежду | prasować ubrania
+готовить еду | szykować jedzenie
+кормить животное | karmić zwierzę
+мыть полы | myć podłogi
+мыть посуду | zmywać naczynia
+пылесосить | odkurzać
+стирать | prać
+убирать | sprzątać
+ходить за покупками | chodzić na zakupy
+
+блендер | blender
+бытовая техника | sprzęt AGD
+кондиционер | klimatyzator
+кофемашина | ekspres do kawy
+микроволновая печь | kuchenka mikrofalowa
+посудомоечная машина | zmywarka
+пульт | pilot
+пылесос | odkurzacz
+стиралная машина | pralka
+утюг | żelazko
+фен | suszarka
+холодилник | lodówka
+чайник | czajnik
+
+комисия | prowizja
+инотека | hipoteka
+срочно | pilnie
+сообственный | osobny
+грязный | brudny
+дизайнерский | designerski
+долгасрочный | długoterminowy
+качественный | jakościowy
+комфортный | komfortowy
+краткосрочный | krótkoterminowy
+последний | ostatni
+престижный | prestiżowy
+просторный | przestronny
+светлый | jasny
+тёплый | ciepły
+тесный | ciasny
+тихий | cichy
+удобный | wygodny
+уютный | przytulny
+чистый | czysty
+шумный | głośny
